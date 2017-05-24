@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>新建网页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+</head>
+    <body>
+    	<!-- prototype属性 
+    	<script>
+    		function employee(name,job,born){
+    			this.name=name;
+    			this.job=job;
+    			this.born=born;
+    		}
+    		var bill=new employee('bill gates','engineer',1985);
+    		employee.prototype.salary=null;
+    		bill.salary=20000;
+    		document.write(bill.salary)
+    	</script>
+		-->
+		<!--  length属性
+		<script type="text/javascript">
+			var arr = new Array(3);
+			arr[0]="joh";
+			arr[1]="andy";
+			arr[2]="wendy";
+			document.write("Original length: " + arr.length);
+			document.write('<br />');
+			arr.length=5
+			document.write('new length:'+arr.length);
+		</script>
+		-->
+		<script type=text/javascript>
+			//reverse()
+			var arr=new Array("Saab","Volvo","BMW")
+			document.write(arr+'<br />')
+			document.write(arr.reverse()+'<br />');
+			//pop()
+			document.write(arr.pop()+'<br />');
+			document.write(arr.push('Asd')+'<br />');
+			document.write(arr.sort()+'<br />')
+			document.write(arr.valueOf()+'<br />')
+			document.write(arr.slice(0,2)+'<br />')
+		</script>
+
+    </body>
+</html>
